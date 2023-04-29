@@ -1,9 +1,17 @@
+import Head from "next/head";
+
 const Contact = () => {
-    return ( 
-        <div>
-            <h1>contact</h1>
-        </div> 
-        );
-}
- 
+  return (
+    <>
+      <Head>
+        <title>Ninja List | Contact</title>
+        <meta name="Keywords" content="ninjas" />
+      </Head>
+      <div>
+        <h1>contact</h1>
+      </div>
+    </>
+  );
+};
+
 export default Contact;
