@@ -1,9 +1,9 @@
 const Footer = () => {
     const date = new Date().getFullYear()
     return ( 
-        <div>
+        <footer className="footer">
             <p>&copy; {date} made with &hearts; by ROMs</p>
-        </div>
+        </footer>
      );
 }
  
