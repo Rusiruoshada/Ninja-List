@@ -8,7 +8,7 @@ const Contact = () => {
         <meta name="Keywords" content="ninjas" />
       </Head>
       <div>
-        <h1>contact</h1>
+        <h1>Contact</h1>
       </div>
     </>
   );
